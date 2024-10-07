@@ -92,6 +92,34 @@ footer{
 
 }
 
-nav {
+nav a,
+footer a {
   margin-left: 30px;
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.projet-photos{
+  background-color: white;
+}
+
+.projet-photos h2{
+  color: black;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.projet-photos div{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
